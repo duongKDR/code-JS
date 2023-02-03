@@ -1,5 +1,9 @@
 
-
+var me = {
+   name:'duong',
+   age: 19,
+   address: 'TH',
+}
 
 function note(title, author){
     this.title = title; 
@@ -8,6 +12,7 @@ function note(title, author){
  var myNote = new note("Pe", "Mo");
 
  console.log(myNote);
+ console.log("----------");
 
 
  function addPrice(amount){
@@ -27,3 +32,4 @@ function note(title, author){
  myBook.addPrice(100);
 
  console.log(myBook);
+ console.log("----------");
